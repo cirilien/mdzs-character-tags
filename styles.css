@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+  background: #eee;
+}
+
+section {
+  margin: 40px 0;
+}
+
+.container {
+  max-width: 70%;
+  margin: 20px auto;
+}
+
+.output {
+  display: block;
+  min-height: 100px;
+  background: #d2d2d2;
+  margin: 20px auto;
+  border: 1px dashed #fff;
+  padding: 20px;
+  line-height: 1.5;
+}
+
+button {
+  margin: 5px;
+}
+
+.clear {
+  margin-left: 0;
+}
+
+.explainer {
+  display: none;
+  font-style: italic;
+  color: #757575;
+}
+
+.empty .clear {
+  display: none;
+}
+
+.empty .explainer {
+  display: block;
+}
